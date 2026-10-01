@@ -1,0 +1,55 @@
+{
+  "target": "F:\\massage-sites\\star-massage",
+  "domain": "https://harugyeolcare.shop",
+  "brand": {
+    "old": "하루결케어",
+    "new": "하루결케어"
+  },
+  "shops": {
+    "001": {
+      "name": "",
+      "phone": ""
+    },
+    "002": {
+      "name": "",
+      "phone": ""
+    },
+    "003": {
+      "name": "",
+      "phone": ""
+    },
+    "004": {
+      "name": "",
+      "phone": ""
+    },
+    "005": {
+      "name": "",
+      "phone": ""
+    }
+  },
+  "text_replacements": {},
+  "design": {
+    "colors": {
+      "#9A3412": "#9A3412",
+      "#7C2D12": "#7C2D12",
+      "#FB923C": "#FB923C",
+      "#FED7AA": "#FED7AA",
+      "#FFF7ED": "#FFF7ED",
+      "#FFFBF5": "#FFFBF5",
+      "#7C3AED": "#7C3AED"
+    },
+    "images": {
+      "/assets/images/special-og/seoul-chuljangmassage-04.png": ""
+    }
+  },
+  "regions": {
+    "seoul": true,
+    "gyeonggi": true,
+    "incheon": true,
+    "other": true
+  },
+  "content_seed": "star-massage-v4-B",
+  "shop_replacements": {},
+  "v4_assignments": "E:\\massage-auto-test\\factory_v3_shop_assignments_8sites.csv",
+  "v4_site_slug": "star-massage"
+}

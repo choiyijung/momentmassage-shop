@@ -1,0 +1,55 @@
+{
+  "target": "F:\\massage-sites\\mong-massage",
+  "domain": "https://mong-massage.example",
+  "brand": {
+    "old": "하루결케어",
+    "new": "mong마사지"
+  },
+  "shops": {
+    "001": {
+      "name": "",
+      "phone": ""
+    },
+    "002": {
+      "name": "",
+      "phone": ""
+    },
+    "003": {
+      "name": "",
+      "phone": ""
+    },
+    "004": {
+      "name": "",
+      "phone": ""
+    },
+    "005": {
+      "name": "",
+      "phone": ""
+    }
+  },
+  "text_replacements": {},
+  "design": {
+    "colors": {
+      "#9A3412": "#1D4ED8",
+      "#7C2D12": "#1E40AF",
+      "#FB923C": "#60A5FA",
+      "#FED7AA": "#BFDBFE",
+      "#FFF7ED": "#EFF6FF",
+      "#FFFBF5": "#F8FAFF",
+      "#7C3AED": "#0F766E"
+    },
+    "images": {
+      "/assets/images/special-og/seoul-chuljangmassage-04.png": ""
+    }
+  },
+  "regions": {
+    "seoul": true,
+    "gyeonggi": true,
+    "incheon": true,
+    "other": true
+  },
+  "content_seed": "mong-massage-v4-A",
+  "shop_replacements": {},
+  "v4_assignments": "E:\\massage-auto-test\\factory_v3_shop_assignments_8sites.csv",
+  "v4_site_slug": "mong-massage"
+}

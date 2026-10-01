@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 670" role="img" aria-labelledby="title desc">
+<title id="title">하루결케어 창가의 휴식 공간</title><desc id="desc">남색 공간 속 따뜻한 자연광이 드는 창문과 아이보리 의자, 식물의 일러스트</desc>
+<defs>
+  <linearGradient id="window" x2="0" y2="1"><stop stop-color="#d5e6ee"/><stop offset=".57" stop-color="#adc7d3"/><stop offset="1" stop-color="#628ba2"/></linearGradient>
+  <linearGradient id="gold" x2="0" y2="1"><stop stop-color="#ebd8b3"/><stop offset="1" stop-color="#b89a62"/></linearGradient>
+  <linearGradient id="chair" x2="0" y2="1"><stop stop-color="#f5f0e6"/><stop offset=".62" stop-color="#e7e1d5"/><stop offset="1" stop-color="#b8b5af"/></linearGradient>
+  <linearGradient id="floor" x2="0" y2="1"><stop stop-color="#7898aa"/><stop offset="1" stop-color="#344b62"/></linearGradient>
+  <radialGradient id="light"><stop stop-color="#f5e7c5" stop-opacity=".85"/><stop offset="1" stop-color="#f5e7c5" stop-opacity="0"/></radialGradient>
+  <filter id="shadow"><feGaussianBlur stdDeviation="17"/></filter>
+</defs>
+<ellipse cx="405" cy="612" rx="315" ry="35" fill="#0b1c2f" opacity=".38" filter="url(#shadow)"/>
+<circle cx="464" cy="221" r="240" fill="url(#light)" opacity=".2"/>
+<!-- tall arched window -->
+<path d="M237 105Q237 30 307 30H523Q601 30 601 106V481H237Z" fill="#162a40" stroke="#c7ae7a" stroke-width="7"/>
+<path d="M251 111Q251 45 314 45H523Q585 45 585 111V465H251Z" fill="url(#window)"/>
+<circle cx="510" cy="146" r="57" fill="#f4e5c2" opacity=".75"/>
+<path d="M251 324Q338 278 396 313T585 299V465H251Z" fill="#7b9ba6" opacity=".52"/>
+<path d="M251 365Q336 330 414 352T585 347V465H251Z" fill="#638598" opacity=".62"/>
+<path d="M250 447L585 447M418 44V465" stroke="#d3ba84" stroke-width="9" opacity=".76"/>
+<path d="M247 466H589" stroke="#f0d8ab" stroke-width="18" stroke-linecap="round"/>
+<!-- golden tall lamp -->
+<path d="M670 243V561M637 563H701" stroke="#c7ae7a" stroke-width="8" stroke-linecap="round"/>
+<path d="M637 259Q645 219 670 218Q700 221 705 259Z" fill="url(#gold)"/>
+<ellipse cx="671" cy="259" rx="35" ry="6" fill="#f7e9c8"/>
+<!-- oval rug -->
+<ellipse cx="392" cy="586" rx="282" ry="49" fill="#b9a88d" opacity=".37"/>
+<ellipse cx="392" cy="581" rx="265" ry="43" fill="#dcd7c8" opacity=".77"/>
+<!-- chair legs -->
+<path d="M202 511L185 577M464 517L487 582" stroke="#bd9b62" stroke-width="12" stroke-linecap="round"/>
+<!-- upholstered lounge seat -->
+<path d="M196 349Q194 296 248 281Q348 255 436 305Q475 325 470 366L462 482Q457 516 419 520H236Q200 519 193 486Z" fill="#d9d3c8"/>
+<path d="M211 345Q209 305 254 298Q350 279 433 320Q457 335 454 371L447 456H212Z" fill="url(#chair)" stroke="#f4f0e8" stroke-width="3"/>
+<path d="M206 427Q300 398 454 426L458 480Q454 510 416 513H239Q203 508 202 476Z" fill="url(#chair)"/>
+<path d="M224 437Q311 415 436 440" fill="none" stroke="#fffaf0" stroke-opacity=".65" stroke-width="4"/>
+<!-- cushion -->
+<path d="M329 350Q362 341 408 351Q422 380 410 415Q369 426 333 412Q324 383 329 350Z" fill="#a2b7b8"/>
+<path d="M336 357Q365 350 399 360" fill="none" stroke="#d0dad4" stroke-width="3"/>
+<!-- small wooden table -->
+<ellipse cx="551" cy="488" rx="66" ry="17" fill="#d8bd8a"/>
+<path d="M503 497L491 562M600 497L613 562" stroke="#b49564" stroke-width="8" stroke-linecap="round"/>
+<!-- potted plant -->
+<path d="M548 470Q541 415 551 351M548 434Q515 397 510 363M554 408Q594 376 602 332M549 387Q532 331 546 305" stroke="#536b56" stroke-width="7" stroke-linecap="round" fill="none"/>
+<path d="M549 383Q496 362 502 319Q549 332 549 383Z" fill="#8d9d81"/>
+<path d="M554 366Q565 310 604 309Q593 350 554 366Z" fill="#bac2a3"/>
+<path d="M536 418Q485 413 476 378Q526 377 536 418Z" fill="#738b73"/>
+<path d="M558 433Q601 403 627 417Q605 449 558 433Z" fill="#a3b59a"/>
+<path d="M519 453H576L567 486Q547 495 529 485Z" fill="#dbd5c7" stroke="#f2e8d2" stroke-width="3"/>
+<!-- floating luxury highlights -->
+<path d="M128 178L132 193L147 198L132 203L128 218L123 203L108 198L123 193Z" fill="#e2c891" opacity=".75"/>
+<circle cx="640" cy="151" r="3" fill="#e2c891"/><circle cx="176" cy="249" r="3" fill="#e2c891"/>
+</svg>

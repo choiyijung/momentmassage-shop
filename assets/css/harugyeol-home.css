@@ -1,0 +1,237 @@
+/* HARUGYEOL CARE | homepage-only visual layer | original style.css & app.js remain intact */
+:root {
+  --haru-navy:#14253d; --haru-deep:#101e33; --haru-blue:#356fd2;
+  --haru-ivory:#faf7f0; --haru-gold:#d9b878; --haru-text:#1c2b40;
+  --haru-muted:#627085; --haru-border:#e6eaf0;
+}
+html:has(body.haru-home),body.haru-home {
+  background:#edf1f4 !important;
+  color:var(--haru-text) !important;
+}
+.haru-home .site {
+  background:#fff !important;
+  box-shadow:0 24px 88px rgba(14,28,47,.09);
+}
+.haru-home .header {
+  background:rgba(255,255,255,.97) !important;
+  border-bottom:1px solid #e8edf3 !important;
+  box-shadow:0 3px 22px rgba(20,37,61,.045) !important;
+}
+.haru-home .hamb {background:#edf3fa !important;border:1px solid #dce7f4 !important}
+.haru-home .hamb span {background:var(--haru-navy) !important}
+.haru-home .mark {background:linear-gradient(145deg,#173458,#3771ad) !important;color:#fff !important;box-shadow:0 4px 12px rgba(20,37,61,.18) !important}
+.haru-home .logo-copy b {color:#172e4a !important;letter-spacing:-.045em}
+.haru-home .logo-copy small {color:#637d99 !important}
+.haru-home .head-actions a:hover,.haru-home .drawer-nav a:hover {color:var(--haru-blue) !important}
+.haru-home .member-box {background:#eaf1fa !important}
+.haru-home .support small {color:#4477ad !important}
+
+/* Actual main hero: class matches the supplied HTML and overrides the earlier orange !important block */
+.haru-home main > .main-title-section {
+  order:-10 !important; position:relative; isolation:isolate;
+  display:flex !important; align-items:center; overflow:hidden;
+  min-height:358px; margin:20px 20px 4px !important; padding:42px 36px !important;
+  border:1px solid #294465 !important; border-radius:24px !important;
+  background:radial-gradient(circle at 88% 22%,rgba(84,132,184,.33),transparent 37%),linear-gradient(125deg,#101f37 0%,#193756 56%,#31567a 100%) !important;
+  box-shadow:0 14px 36px rgba(20,37,61,.15);
+  color:#fff !important;
+}
+.haru-home main > .main-title-section::after {
+  content:"";position:absolute;pointer-events:none;z-index:-1;inset:0;
+  background:linear-gradient(90deg,rgba(16,31,55,.15) 36%,transparent 85%);
+}
+.haru-home .haru-hero-content {position:relative;z-index:2;max-width:60%;min-width:0}
+.haru-home .haru-hero-eyebrow {
+  display:flex;align-items:center;gap:8px;margin:0 0 22px;
+  color:#ead29a;font-size:10px;font-weight:800;letter-spacing:.14em;
+}
+.haru-home .haru-hero-dot {width:6px;height:6px;border-radius:50%;background:#e4c584;box-shadow:0 0 0 4px rgba(228,197,132,.13)}
+.haru-home main > .main-title-section h1 {
+  margin:0 !important;color:#fff !important;
+  font-size:clamp(25px,3.2vw,37px) !important;line-height:1.34 !important;
+  font-weight:900 !important;letter-spacing:-.065em !important;
+  text-align:left !important;
+}
+.haru-home .haru-hero-content h1 em {font-style:normal;color:#f1d49b !important}
+.haru-home .haru-hero-description {max-width:450px;color:#d5e2ef !important;line-height:1.82;font-size:12px;letter-spacing:-.015em;margin:17px 0 21px}
+.haru-home .haru-hero-actions {display:flex;flex-wrap:wrap;gap:9px;align-items:center}
+.haru-home .haru-hero-actions a {display:inline-flex;align-items:center;justify-content:center;gap:15px;min-height:42px;padding:10px 15px;border-radius:10px;font-weight:800;font-size:11px;transition:transform .15s,background .15s}
+.haru-home .haru-hero-actions a:hover {transform:translateY(-2px)}
+.haru-home .haru-primary-action {background:#f1d59d;color:#132b43 !important;box-shadow:0 6px 20px rgba(0,0,0,.12)}
+.haru-home .haru-primary-action:hover {background:#ffe5af}
+.haru-home .haru-secondary-action {color:#eef4fc !important;border:1px solid rgba(225,236,250,.46);background:rgba(255,255,255,.045)}
+.haru-home .haru-secondary-action:hover {background:rgba(255,255,255,.13)}
+.haru-home .haru-hero-caption {margin:22px 0 0;color:#9db5cd;font-size:9px;letter-spacing:.04em}
+.haru-home .haru-hero-art {position:absolute;z-index:1;right:-8px;bottom:-30px;width:43%;height:auto;max-height:100%;object-fit:contain;filter:drop-shadow(0 16px 18px rgba(6,20,32,.28))}
+
+/* Existing home page blocks are reordered for direct access to search without changing href/JS */
+.haru-home main > .search-area {order:-9 !important;width:auto !important;max-width:none !important;margin:10px 20px 8px !important;padding:0 !important}
+.haru-home .search {height:60px;border:1px solid #dbe5ef !important;border-radius:15px !important;box-shadow:0 7px 20px rgba(20,37,61,.05)}
+.haru-home .search-icon {color:#376fbb}
+.haru-home .search input {font-size:13px;color:#1c2b40}
+.haru-home .search button {background:#2865b5 !important;color:#fff !important;border-radius:10px !important;min-width:85px}
+.haru-home .search button:hover {background:#184d91 !important}
+.haru-home main > .categories-section {order:-8 !important;margin:15px 20px 0 !important;padding:22px 20px 23px !important;background:var(--haru-ivory) !important;border:1px solid #ece6da !important;border-radius:20px !important}
+.haru-home .categories-section h2 {font-size:17px;color:#1c2f49 !important}
+.haru-home .categories a {padding:9px 3px 8px !important;border:1px solid transparent !important;background:transparent !important;box-shadow:none !important;color:#3d516a !important;border-radius:12px !important;transition:background .15s,transform .15s}
+.haru-home .categories a:hover {background:#fff !important;transform:translateY(-2px)}
+.haru-home .categories i {background:#e5edf8 !important;color:#234e82 !important;border-radius:12px !important;border:1px solid #d3e2f2}
+.haru-home main > .quick {order:-7 !important;margin:11px 20px 0;padding:0 !important}
+.haru-home .quick a {min-height:78px;background:linear-gradient(115deg,#162c48,#274967) !important;border:1px solid #304d6c !important;border-radius:15px !important;box-shadow:0 5px 13px rgba(24,49,77,.11) !important;padding:17px 15px}
+.haru-home .quick a:nth-child(2) {background:linear-gradient(115deg,#204c75,#356e95) !important}
+.haru-home .quick a:nth-child(3) {background:linear-gradient(115deg,#344558,#50677d) !important}
+.haru-home .quick small {color:#c9d8e7 !important}
+.haru-home main > .main-special {order:-6 !important;margin:25px 20px 18px !important}
+.haru-home .main-special-head small {color:#3974b3 !important}
+.haru-home .main-special-head h2 {color:#1e324d !important}
+.haru-home .main-special-card {min-height:133px;border:1px solid #d5e2ef !important;background:linear-gradient(140deg,#f9fcff,#eaf1fa) !important;color:#1d3049 !important;border-radius:17px !important;box-shadow:0 5px 18px rgba(26,60,96,.06)}
+.haru-home .main-special-card:nth-child(2) {background:linear-gradient(140deg,#fffaf1,#f6ecdb) !important;border-color:#e8dac2 !important}
+.haru-home .main-special-card:nth-child(3) {background:linear-gradient(140deg,#f6f8ff,#e8ecf8) !important;border-color:#dce3f5 !important}
+.haru-home .main-special-card:hover {background:#f2f6fc !important;border-color:#9bb7d9 !important}
+.haru-home .main-special-card small,.haru-home .main-special-card b {color:#3671b2 !important}
+.haru-home .main-special-card strong {color:#1c304a !important}
+.haru-home main > .region-guide {order:-5 !important;border-top:0 !important;margin-top:8px !important;background:#f4f7fb !important}
+.haru-home main > .region-guide .region-boxes>div {border:1px solid #e0e8f1 !important;box-shadow:0 5px 18px rgba(21,43,68,.04);border-radius:15px !important}
+.haru-home .region-boxes a {background:#edf3fa !important;color:#35516d !important}
+.haru-home .region-boxes a:hover {background:#dce8f8 !important;color:#153a66 !important}
+
+/* Recommendations and guides: neutral ivory instead of inherited orange/teal */
+.haru-home .section h2,.haru-home .section h3 {color:#1d314b !important}
+.haru-home .section-title>a {color:#356ba8 !important;font-weight:800}
+.haru-home .card {background:#fff !important;border:1px solid #e0e8f1 !important;border-radius:17px !important;box-shadow:0 7px 20px rgba(22,47,77,.055) !important}
+.haru-home .card:hover {box-shadow:0 14px 28px rgba(22,47,77,.10) !important}
+.haru-home .thumb {background:linear-gradient(145deg,#1b324e,#46729c) !important}
+.haru-home .thumb::after {background:linear-gradient(0deg,rgba(11,27,45,.68),transparent 65%) !important}
+.haru-home .badge,.haru-home .thumb > .badge {background:#e5c083 !important;color:#182c44 !important;box-shadow:0 3px 12px rgba(21,44,70,.18)}
+.haru-home .detail-btn {background:#2865b5 !important;color:#fff !important;border-color:#2865b5 !important}
+.haru-home .detail-btn:hover {background:#1a4c89 !important}
+.haru-home .tabs {border-bottom-color:#e1e9f1 !important}
+.haru-home .tabs button.active {color:#265e9f !important;border-color:#265e9f !important}
+.haru-home .region-row {border-color:#dee8f1 !important;background:#fff !important;border-radius:15px !important}
+.haru-home .region-row-thumb {background:#1c3956 !important}
+.haru-home .region-row-thumb b {background:#dbb879 !important;color:#1c314b !important}
+.haru-home .posts article {border:1px solid #e0e8f1 !important;background:#fff;border-radius:15px !important}
+.haru-home .posts em {color:#356fa9 !important}
+.haru-home .partner {background:linear-gradient(130deg,#152840,#284e70) !important}
+.haru-home .partner small,.haru-home .partner li b {color:#efd095 !important}
+.haru-home .partner div>a {background:#efd095 !important;color:#16283e !important}
+.haru-home .partner li {background:rgba(255,255,255,.085) !important}
+.haru-home footer {background:#101f32 !important;color:#c1d0df !important}
+.haru-home footer nav a:hover {color:#fff !important}
+.haru-home footer>small {color:#a8bed3 !important}
+.haru-home .bottom-nav {background:rgba(255,255,255,.98) !important;border-top-color:#e0e8f1 !important}
+.haru-home .bottom-nav a.active {color:#245da5 !important}
+.haru-home a:focus-visible,.haru-home button:focus-visible {outline:3px solid #debd7f !important;outline-offset:3px}
+
+@media(max-width:700px) {
+  html:has(body.haru-home),body.haru-home {background:#fff !important}
+  .haru-home main > .main-title-section {min-height:auto !important;display:block !important;margin:12px 12px 5px !important;padding:30px 23px 170px !important;border-radius:19px !important}
+  .haru-home .haru-hero-content {max-width:100%}
+  .haru-home main > .main-title-section h1 {font-size:30px !important;line-height:1.34 !important}
+  .haru-home .haru-hero-description {font-size:12px;max-width:100%;line-height:1.74}
+  .haru-home .haru-hero-art {width:57%;max-height:none;right:1%;bottom:-8px;opacity:.90}
+  .haru-home .haru-hero-actions {gap:7px}
+  .haru-home .haru-hero-actions a {font-size:10px;min-height:40px;padding:9px 12px;gap:8px}
+  .haru-home .haru-hero-eyebrow {font-size:9px;margin-bottom:14px}
+  .haru-home .haru-hero-caption {margin-top:16px}
+  .haru-home main > .search-area {margin:11px 12px 5px !important}
+  .haru-home main > .categories-section {margin:10px 12px 0 !important;padding:19px 10px 15px !important;border-radius:16px !important}
+  .haru-home .categories {grid-template-columns:repeat(4,minmax(0,1fr))}
+  .haru-home .categories a {font-size:9px !important}
+  .haru-home .categories i {width:39px;height:39px}
+  .haru-home main > .quick {margin:10px 12px 0 !important}
+  .haru-home .quick a {padding:12px 10px;min-height:73px}
+  .haru-home .quick b {font-size:12px}
+  .haru-home .quick small {font-size:8px;letter-spacing:-.025em;overflow-wrap:anywhere}
+  .haru-home main > .main-special {margin:22px 13px 14px !important}
+  .haru-home .main-special-grid {grid-template-columns:repeat(3,minmax(0,1fr)) !important;gap:7px}
+  .haru-home .main-special-card {min-height:133px;padding:14px 10px !important}
+  .haru-home .main-special-card strong {font-size:19px !important}
+  .haru-home .main-special-card small {font-size:8px;letter-spacing:0;overflow-wrap:anywhere}
+  .haru-home .main-special-card b {font-size:9px !important}
+  .haru-home main > .region-guide {margin-top:6px !important}
+}
+@media(max-width:360px) {
+  .haru-home .haru-hero-art {width:63%;bottom:-7px}
+  .haru-home main > .main-title-section {padding-bottom:157px !important}
+  .haru-home main > .main-title-section h1 {font-size:26px !important}
+  .haru-home .main-special-grid {grid-template-columns:1fr !important}
+  .haru-home .main-special-card {min-height:92px}
+}
+
+/* HARU-SCREEN-REFINEMENT-START */
+
+/* PC 화면 폭 */
+@media (min-width: 701px) {
+  .haru-home .site {
+    width: min(1160px, 100%) !important;
+  }
+
+  .haru-home main > .main-title-section {
+    min-height: 390px !important;
+    padding: 46px 43px !important;
+  }
+
+  .haru-home main > .main-title-section h1 {
+    font-size: clamp(34px, 3.2vw, 44px) !important;
+  }
+
+  .haru-home .haru-hero-description {
+    font-size: 14px !important;
+  }
+
+  .haru-home .haru-hero-actions a {
+    font-size: 13px !important;
+  }
+
+  .haru-home .horizontal-cards,
+  .haru-home .premium-scroll {
+    grid-auto-columns: calc((100% - 28px) / 3) !important;
+    gap: 14px !important;
+  }
+}
+
+/* 카테고리 */
+.haru-home .categories-section h2 {
+  font-size: 20px !important;
+}
+
+.haru-home .categories a {
+  font-size: 12px !important;
+}
+
+.haru-home .categories i {
+  width: 48px;
+  height: 48px;
+  font-size: 19px;
+}
+
+/* 업체 카드 */
+.haru-home .card h3 {
+  font-size: 15px !important;
+}
+
+.haru-home .card-sub,
+.haru-home .card .stats,
+.haru-home .card .address,
+.haru-home .card .distance {
+  font-size: 11px !important;
+  line-height: 1.55;
+}
+
+.haru-home .region-row h3 {
+  font-size: 14px !important;
+}
+
+/* 모바일에서는 기존 폭 유지 */
+@media (max-width: 700px) {
+  .haru-home .site {
+    width: 100% !important;
+  }
+
+  .haru-home .categories a {
+    font-size: 11px !important;
+  }
+}
+
+/* HARU-SCREEN-REFINEMENT-END */
