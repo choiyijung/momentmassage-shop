@@ -8,4 +8,4 @@ Disallow: /join.html
 Disallow: /mypage.html
 Disallow: /shop.html
 
-Sitemap: https://harugyeolcare.shop/sitemap.xml
+Sitemap: https://momentmassage-shop.netlify.app/sitemap.xml
