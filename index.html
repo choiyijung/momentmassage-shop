@@ -91,17 +91,17 @@
   <main class="new8-home-layout">
     <section class="new8-hero" aria-labelledby="haru-hero-title">
       <div class="new8-hero-copy">
-        <p class="new8-kicker">SEOUL · GYEONGGI · INCHEON</p>
-        <h1 id="haru-hero-title">가까운 지역에서 찾는<br><em>나에게 맞는 쉼</em></h1>
-        <p class="new8-hero-description">서울·경기·인천의 지역별 마사지와 홈케어 정보를 정리했습니다. 원하는 동네를 선택해 업체 소개와 코스 내용을 확인해 보세요.</p>
+        <p class="new8-kicker">SEOUL &amp; INCHEON AREA GUIDE</p>
+        <h1 id="haru-hero-title">서울을 중심으로 찾는<br><em>인천까지 이어지는 지역 안내</em></h1>
+        <p class="new8-hero-description">서울 강남·서초·송파·강서 등 주요 생활권을 중심으로 마사지와 홈케어 정보를 정리했습니다. 인천 주요 지역도 함께 살펴보고 원하는 지역으로 이동해 업체와 코스를 확인하세요.</p>
         <form class="new8-search" id="searchForm">
           <span aria-hidden="true">⌕</span>
           <input id="q" type="search" placeholder="지역 또는 업체명을 검색하세요" autocomplete="off">
           <button type="submit">찾기</button>
         </form>
         <div class="new8-hero-actions">
-          <a href="region/">지역 전체 보기 <span>↗</span></a>
-          <a href="special/">추천 지역 안내 <span>→</span></a>
+          <a href="/special/seoul/">서울 지역 보기 <span>↗</span></a>
+          <a href="/special/incheon/">인천 지역 안내 <span>→</span></a>
         </div>
       </div>
       <div class="new8-hero-visual">
@@ -112,39 +112,74 @@
 
     <section class="new8-region-launch" aria-label="주요 지역 바로가기">
       <a class="new8-region-card new8-region-seoul" href="/special/seoul/">
-        <small>01 · SEOUL</small><strong>서울</strong><span>25개 구 안내</span><b>지역 보기 →</b>
-      </a>
-      <a class="new8-region-card new8-region-gyeonggi" href="/special/gyeonggi/">
-        <small>02 · GYEONGGI</small><strong>경기</strong><span>시·군·일반구 안내</span><b>지역 보기 →</b>
+        <small>01 · SEOUL FOCUS</small><strong>서울</strong><span>강남·서초·송파 등 25개 구</span><b>서울 지역 보기 →</b>
       </a>
       <a class="new8-region-card new8-region-incheon" href="/special/incheon/">
-        <small>03 · INCHEON</small><strong>인천</strong><span>구·군 안내</span><b>지역 보기 →</b>
+        <small>02 · INCHEON GUIDE</small><strong>인천</strong><span>주요 구·생활권 안내</span><b>인천 지역 보기 →</b>
+      </a>
+      <a class="new8-region-card new8-region-gyeonggi" href="/special/gyeonggi/">
+        <small>03 · GYEONGGI</small><strong>경기</strong><span>인접 경기 지역 안내</span><b>경기 지역 보기 →</b>
       </a>
       <a class="new8-region-card new8-region-other" href="region/">
-        <small>04 · OTHER</small><strong>기타 지역</strong><span>전국 주요 도시</span><b>전체 보기 →</b>
+        <small>04 · ALL AREA</small><strong>전체 지역</strong><span>다른 지역 찾아보기</span><b>전체 보기 →</b>
       </a>
     </section>
 
-    <section class="new8-toolbelt">
-      <div class="new8-toolbelt-head">
-        <div><small>QUICK FILTER</small><h2>원하는 방식으로 바로 찾기</h2></div>
-        <a href="region/">전체 지역 →</a>
+    <!-- SITE01 SEOUL INCHEON FOCUS HUB START -->
+    <section class="focus-hub" aria-labelledby="focus-hub-title">
+      <div class="focus-hub-intro">
+        <div>
+          <small>SEOUL ? INCHEON LOCAL GUIDE</small>
+          <h2 id="focus-hub-title">서울을 중심으로, 인천까지<br><em>지역에 맞게 찾아보세요</em></h2>
+        </div>
+        <p>서울 주요 생활권과 인천 지역을 나누어 필요한 정보로 바로 이동할 수 있게 정리했습니다. 지역 안내, 추천 생활권, 테마별 안내를 구분해 살펴보세요.</p>
       </div>
-      <div class="new8-categories">
-        <a href="region/?category=massage"><i>✦</i><span>마사지</span></a>
-        <a href="region/?category=esthetic"><i>◇</i><span>에스테틱</span></a>
-        <a href="blank-waxing.html"><i>◌</i><span>왁싱</span></a>
-        <a href="region/?category=homecare"><i>⌂</i><span>출장홈케어</span></a>
-        <a href="blank-one-shop.html"><i>1</i><span>1인샵</span></a>
-        <a href="region/?category=men"><i>♂</i><span>남성전용</span></a>
-        <a href="blank-women.html"><i>♀</i><span>여성전용</span></a>
-      </div>
-      <div class="new8-quick-links">
-        <a href="coupon/"><small>BENEFIT</small><b>쿠폰</b><span>사용 가능한 혜택 확인</span></a>
-        <a href="event/"><small>UPDATE</small><b>이벤트</b><span>진행 중인 소식 보기</span></a>
-        <a href="special/"><small>CURATION</small><b>기획전</b><span>테마별 지역 안내</span></a>
+
+      <div class="focus-hub-grid">
+        <a class="focus-hub-card focus-hub-card-main" href="/special/seoul/">
+          <small>SEOUL FOCUS</small>
+          <strong>서울 지역 안내</strong>
+          <span>강남·서초·송파·강서 등 서울 25개 구를 생활권별로 살펴보세요.</span>
+          <b>서울 보기 →</b>
+        </a>
+
+        <a class="focus-hub-card focus-hub-card-incheon" href="/special/incheon/">
+          <small>INCHEON GUIDE</small>
+          <strong>인천 지역 안내</strong>
+          <span>연수·미추홀·계양 등 인천 주요 구와 생활권을 한눈에 확인하세요.</span>
+          <b>인천 보기 →</b>
+        </a>
+
+        <a class="focus-hub-card" href="/coupon/">
+          <small>SEOUL PICKS</small>
+          <strong>서울 추천지역</strong>
+          <span>서울에서 우선으로 살펴볼 주요 지역과 세부 이동 경로를 정리합니다.</span>
+          <b>추천지역 보기 →</b>
+        </a>
+
+        <a class="focus-hub-card" href="/event/">
+          <small>INCHEON LIVING AREA</small>
+          <strong>인천 생활권 안내</strong>
+          <span>인천 구별 이동과 인접 지역을 함께 연결해 찾아보기 쉽게 안내합니다.</span>
+          <b>생활권 보기 →</b>
+        </a>
+
+        <a class="focus-hub-card focus-hub-card-wide" href="/special/">
+          <small>CURATED GUIDE</small>
+          <strong>서울·인천 테마 가이드</strong>
+          <span>지역 선택부터 방문 안내, 코스를 살펴보는 방법까지 서울·인천 중심으로 모아봅니다.</span>
+          <b>테마 가이드 보기 →</b>
+        </a>
+
+        <a class="focus-hub-card focus-hub-card-sub" href="/special/gyeonggi/">
+          <small>NEARBY GYEONGGI</small>
+          <strong>경기 인접지역</strong>
+          <span>서울·인천과 이어지는 경기 주요 지역은 보조 안내로 확인하세요.</span>
+          <b>경기 보기 →</b>
+        </a>
       </div>
     </section>
+    <!-- SITE01 SEOUL INCHEON FOCUS HUB END -->
 
     <section class="new8-discovery">
       <div class="new8-discovery-column">
