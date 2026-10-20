@@ -120,14 +120,14 @@ const regions = {
 function drawRegion(key){
   /* === CLEAN-MASSAGE REGION IMAGE START === */
   const regionImages = [
-    "assets/images/main-recommend/region-01.png",
-    "assets/images/main-recommend/region-02.png",
-    "assets/images/main-recommend/region-03.png",
-    "assets/images/main-recommend/region-04.png",
-    "assets/images/main-recommend/region-05.png",
-    "assets/images/main-recommend/region-06.png",
-    "assets/images/main-recommend/region-07.png",
-    "assets/images/main-recommend/region-08.png"
+    "assets/images/shops/room-1.jpg",
+    "assets/images/shops/room-2.jpg",
+    "assets/images/shops/room-3.jpg",
+    "assets/images/shops/room-4.jpg",
+    "assets/images/shops/room-5.jpg",
+    "assets/images/shops/room-6.jpg",
+    "assets/images/shops/room-7.jpg",
+    "assets/images/shops/room-8.jpg"
   ];
   const tabOffset = { "서울":0, "경기":2, "인천":4, "기타지역":6 };
   const offset = tabOffset[key] || 0;
