@@ -91,7 +91,31 @@ document.querySelector("#vipCards").innerHTML =
 
 document.querySelector("#premiumCards").innerHTML = premiumShops.map((s,i)=>card(s,"PICK",i+4)).join("");
 
-const regions = {"서울":[{"name":"하루결테라피","area":"서울","price":"100,000원~","link":"/gangnam-gu/shops/001/"},{"name":"하루결테라피","area":"서울","price":"60,000원~","link":"/gangnam-gu/역삼동/shops/001/"},{"name":"온결테라피","area":"서울","price":"60,000원~","link":"/gangnam-gu/역삼동/shops/002/"},{"name":"라온케어테라피","area":"서울","price":"110,000원~","link":"/gangnam-gu/역삼동/shops/005/"},{"name":"블루쉼테라피","area":"서울","price":"60,000원~","link":"/gangnam-gu/역삼동/shops/003/"}],"경기":[{"name":"결담테라피","area":"경기","price":"100,000원~","link":"/ansan/danwon-gu/고잔동/shops/004/"},{"name":"하루결테라피","area":"경기","price":"60,000원~","link":"/ansan/danwon-gu/고잔동/shops/001/"},{"name":"온결테라피","area":"경기","price":"60,000원~","link":"/ansan/danwon-gu/고잔동/shops/002/"},{"name":"라온케어테라피","area":"경기","price":"110,000원~","link":"/ansan/danwon-gu/고잔동/shops/005/"},{"name":"블루쉼테라피","area":"경기","price":"60,000원~","link":"/ansan/danwon-gu/고잔동/shops/003/"}],"인천":[{"name":"결담테라피","area":"인천","price":"100,000원~","link":"/ganghwa-gun/강화읍/shops/004/"},{"name":"하루결테라피","area":"인천","price":"60,000원~","link":"/ganghwa-gun/강화읍/shops/001/"},{"name":"온결테라피","area":"인천","price":"60,000원~","link":"/ganghwa-gun/강화읍/shops/002/"},{"name":"라온케어테라피","area":"인천","price":"110,000원~","link":"/ganghwa-gun/강화읍/shops/005/"},{"name":"블루쉼테라피","area":"인천","price":"60,000원~","link":"/ganghwa-gun/강화읍/shops/003/"}],"기타지역":[{"name":"코리아골든퀸테라피","area":"천안 아산","price":"100,000원~","link":"/asan/도고면/shops/002/"},{"name":"QueenRose마사지","area":"천안 아산","price":"60,000원~","link":"/asan/도고면/shops/001/"},{"name":"퀸","area":"대전 청주 공주","price":"50,000원~","link":"/daejeon/daedeok-gu/대화동/shops/001/"},{"name":"골든코리아","area":"대전","price":"60,000원~","link":"/daejeon/daedeok-gu/대화동/shops/002/"}]};
+const regions = {
+"서울":[
+{"name":"여백테라피","area":"서울 강남구","price":"상세페이지 확인","link":"/gangnam-gu/shops/여백테라피/"},
+{"name":"고운결마사지","area":"서울 서초구","price":"상세페이지 확인","link":"/seocho-gu/shops/고운결마사지/"},
+{"name":"담온케어","area":"서울 송파구","price":"상세페이지 확인","link":"/songpa-gu/shops/담온케어/"},
+{"name":"온새미마사지","area":"서울 마포구","price":"상세페이지 확인","link":"/mapo-gu/shops/온새미마사지/"},
+{"name":"새봄테라피","area":"서울 용산구","price":"상세페이지 확인","link":"/yongsan-gu/shops/새봄테라피/"}
+],
+"경기":[
+{"name":"여백테라피","area":"경기 수원","price":"상세페이지 확인","link":"/suwon/gwonseon-gu/shops/여백테라피/"},
+{"name":"고운결마사지","area":"경기 용인","price":"상세페이지 확인","link":"/yongin/cheoin-gu/shops/고운결마사지/"},
+{"name":"담온케어","area":"경기 김포","price":"상세페이지 확인","link":"/gimpo/shops/담온케어/"},
+{"name":"여백테라피","area":"경기 고양","price":"상세페이지 확인","link":"/goyang/deogyang-gu/shops/여백테라피/"}
+],
+"인천":[
+{"name":"여백테라피","area":"인천 연수구","price":"상세페이지 확인","link":"/yeonsu-gu/shops/여백테라피/"},
+{"name":"고운결마사지","area":"인천 남동구","price":"상세페이지 확인","link":"/namdong-gu/shops/고운결마사지/"},
+{"name":"담온케어","area":"인천 미추홀구","price":"상세페이지 확인","link":"/michuhol-gu/shops/담온케어/"}
+],
+"기타지역":[
+{"name":"한국미인스타마사지","area":"청주","price":"상세페이지 확인","link":"/cheongju/cheongwon-gu/shops/한국미인스타마사지/"},
+{"name":"퀸마사지","area":"대전","price":"상세페이지 확인","link":"/daejeon/daedeok-gu/shops/퀸마사지/"},
+{"name":"투나잇테라피","area":"천안","price":"상세페이지 확인","link":"/cheonan/dongnam-gu/shops/투나잇테라피/"},
+{"name":"문라이트","area":"아산","price":"상세페이지 확인","link":"/asan/shops/문라이트/"}
+]};
 
 function drawRegion(key){
   /* === CLEAN-MASSAGE REGION IMAGE START === */
